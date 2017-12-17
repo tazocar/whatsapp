@@ -1,0 +1,161 @@
+body{
+  background-color: #D6DBD7;
+  padding-top: 2em;
+}
+.col .row .clear-margin{
+  margin: 0;
+}
+.greenBg{
+  background-color: #009688;
+  height: 5em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.row{
+  margin: 0;
+  padding: 0;
+}
+.col{
+  margin: 0;
+  padding: 0;
+}
+.row .col #chat-fullBox{
+  padding: 0;
+}
+#my-info{
+  background-color: #EEEEEE;
+  padding: 0.5em 1em;
+  border-right: 1px solid #DBDBDB;
+}
+#talking-to-style{
+  background-color: #EEEEEE;
+  padding: 0.5em 1em;
+}
+/*#personal-nav{
+  padding: 0.5em;
+  background-color: #EDE9E2;
+  box-sizing: border-box;
+}*/
+#small{
+  width: 2.8em;
+  height: 2.8em;
+}
+#personal-photo{
+  width: 2.8em;
+  height: 2.8em;
+  background-image: url(../img/aldo.jpg);
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.personal-icons{
+  box-sizing: border-box;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+  clear: both;
+  letter-spacing: 0.5em;
+  line-height: 2em;
+  color: #80868A;
+  font-size: 1.2em;
+}
+.personal-icons .fa{
+  cursor: pointer;
+}
+#input-field{
+  background-color: #FBFBFB;
+  padding: 0.7em;
+  border-bottom: 1px solid #EDE9E2;
+  border-right: 1px solid #E2DEDB;
+  font-weight: lighter;
+}
+#search-friend{
+  border: 1px solid #EDE9E2;
+  height: 2em;
+  margin: 0;
+  width: 92%;
+  padding: 0 0.5em;
+}
+#friends-nav{
+  background-color: #FFF;
+  height: 483px;
+  overflow: auto;
+  border-right: 1px solid #E2DEDB;
+}
+.friend-photo{
+  width: 3.3em;
+  height: 3.3em;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: 50%;
+}
+.friend-info{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5em; 
+  width: 17em;
+}
+.friend-name{
+  font-size: 1em;
+  font-weight: bolder;
+  margin: 0;
+}
+.friend-state{
+  font-size: 0.87em;
+  margin: 0;
+  font-weight: 500;
+  color: #7C7D7D;
+}
+.friend{
+  border-bottom: 1px solid #EEEEEE;
+  padding: 1em;
+}
+.friend:hover{
+  background-color: #F4F5F5;
+}
+.chat{
+  background-color: #EDE9E2;
+  background-image: url(../img/chat-panel-bg.png);
+  height: 484px;
+  word-break: break-all;
+  padding: 0 1em;
+  overflow: auto;
+}
+.text{
+  padding: 0 0.5em;
+  margin: 1em 0;
+  display: inline-block;
+  background-color: #D3FFC2;
+}
+.text p{
+  margin: 0;
+
+}
+.text p:last-child{
+  font-size: 0.8em;
+}
+.fa.fa-microphone{
+  color: #989B9D;
+  font-size: 1.6em;
+  line-height: 2em;
+  padding-right: 0.5em;
+}
+.chat-bottom{
+  background-color: #F5F1EE;
+}
+input[type=text]:not(.browser-default){
+  margin-bottom: 0;
+  font-weight: bolder;
+  color: #515151;
+  background-color: #FFF;
+  height: 1.8em;
+  padding: 0.2em 1em;
+  margin-top: 0.5em;
+  border-radius: 3px;
+}
